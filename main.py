@@ -22,3 +22,11 @@ emp1.affecterVoiture(car1)
 print("\n----- Informations apres affectation -----")
 emp1.afficherInformations()
 car1.afficherInformations()
+
+# Etape 8 : Retirer la voiture de certains employés et afficher
+print("\n----- Retirer la voiture de emp1 -----")
+emp1.retirerVoiture()
+
+print("\n----- Informations apres retrait -----")
+emp1.afficherInformations()
+car1.afficherInformations()

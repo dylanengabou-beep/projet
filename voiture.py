@@ -16,3 +16,7 @@ class Voiture:
             print("chauffeur : ", self.chauffeur.prenom,  self.chauffeur.nom)
         else:
             print("pas de chauffeur assigné")
+
+    def augmenterKilometrage(self, km):
+        self.kilometrage = self.kilometrage + km
+        print("kilometrage augmente de", km, "km")

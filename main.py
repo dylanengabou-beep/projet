@@ -30,3 +30,17 @@ emp1.retirerVoiture()
 print("\n----- Informations apres retrait -----")
 emp1.afficherInformations()
 car1.afficherInformations()
+
+# Etape 9 : Affecter une voiture deja affectee a un autre employe
+print("\n----- Affecter car2 a emp1 et car1 a emp2 -----")
+emp1.affecterVoiture(car2)
+emp2.affecterVoiture(car1)
+
+print("\n----- Tentative d'affecter car1 (deja prise) a emp1 -----")
+emp1.affecterVoiture(car1)
+
+print("\n----- Etat final -----")
+emp1.afficherInformations()
+emp2.afficherInformations()
+car1.afficherInformations()
+car2.afficherInformations()

@@ -7,3 +7,10 @@ emp2 = Employe("67890", "Durand", "Marie")
 
 car1 = Voiture("AB-123-CD", 2020, "Toyota", 15000)
 car2 = Voiture("EF-456-GH", 2019, "Lamborghini", 30000)
+
+# Etape 6 : Affichez les informations de tous les objets créés
+print("----- Informations initiales -----")
+emp1.afficherInformations()
+emp2.afficherInformations()
+car1.afficherInformations()
+car2.afficherInformations()

@@ -29,3 +29,7 @@ class Employe:
             print("voiture retiree")
         else:
             print("cet employe n'a pas de voiture")
+
+    def modifierNom(self, nom):
+        self.nom = nom
+        print("nom modifie")

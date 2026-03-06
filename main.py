@@ -14,3 +14,11 @@ emp1.afficherInformations()
 emp2.afficherInformations()
 car1.afficherInformations()
 car2.afficherInformations()
+
+# Etape 7 : Affectez certaines voitures à des employés et affichez à nouveau
+print("\n----- Affecter car1 a emp1 -----")
+emp1.affecterVoiture(car1)
+
+print("\n----- Informations apres affectation -----")
+emp1.afficherInformations()
+car1.afficherInformations()
